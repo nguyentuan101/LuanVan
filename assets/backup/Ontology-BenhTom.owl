@@ -1,0 +1,2108 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://localhost:8080"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://localhost:8080">
+    <Prefix name="" IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#loaibenh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hình_ảnh_triệu_chứng"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mô_tả_bệnh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#benhtri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#benhtri2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#loaibenh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#benhtri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#loaibenh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#benhtri2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#benhtri"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#benhtri2"/>
+    </NegativeObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Literal>- Nhóm Parvovirus, cấu trúc acid nhân là AND, đường kính 22-24 nm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+-Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <Literal>- Giống Parvovirus, có cấu trúc acid nhân là AND. Vi rus ký sinh trong nhân tế bào tuyến anten, tế bào hệ bạch huyết, tế bào mang, tế bào dây thần kinh. Nhóm Parvovirus, cấu trúc acid nhân là AND, đường kính 22-24 nm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh MBV
+- Tẩy dọn ao, bể nuôi
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus MBV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <Literal>Monodon Baculovirus là virus type A Baculovirus monodon, cấu trúc nhân (acid nucleoic) là dsADN, có lớp vỏ bao, dạng hình que.
+Virus ký sinh ở tế bào biểu mô hình ống gan tụy (Hepatopancreas) và tế bào biểu bì phía trước ruột giữa, virus tái sản xuất bên trong nhân tế bào vật nuôi, bao gồm 4 giai đoạn: tiểm ẩn, ảnh hưởng, nhân nhanh số lượng và phá vỡ tế bào</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+        <Literal>- Không cho các chất khí bão hòa ở trong thủy vực
+- Không dùng phân chưa đủ kỹ
+- Nếu phát hiện bọt khí, kịp thời đổi nước</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+        <Literal>- Các loại khí bão hòa trong nước nhiều
+- Trong ao hồ có nhiều loại tảo, thải ra nhiều khí
+- Phân bón quá nhiều phân chưa ủ kỹ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Literal>* Phòng bệnh:
+- Lọc nước qua tầng lọc cát và xử lý tia cực  tím
+- Xử lý tôm bố mẹ bằng Formanlin 20-25 ppm thười gian 30-60 phút
+- Xử lý tảo bằng Oxytetracylin 30-50 ppm thời gian 1-2 phút
+- Xử lý Artemia bằng Chlorin 10-15 ppm trong 1 giờ ở nước ngọt, vớt ra rửa sạch rồi mới cho ấp
+- Thường xuyên xi phông đáy để giảm lượng vi khuẩn ở tầng đáy bể ương
+- Giai đoạn Zoea phòng bệnh bằng Oxytetracline 0.5 ppm, giai đoạn Mysis phòng bằng Oxytetracline 1-2 ppm
+* Trị bệnh:
+- Dùng một số kháng sinh trị bệnh cho ấu trùng tôm
+- Dùng kháng sinh trộn với thức ăn tinh để trị bệnh tôm thịt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Literal>- Giống Vibrio thuộc họ Vibrionaceae, có gam âm, hình que thẳng hoặc hơi cong.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <Literal>Chưa nghiên cứu phòng trị nhưng có thể áp dụng biện pháp phòng bệnh tổng hợp( vệ sinh ao nuôi, xử lý nguồn nước, thức ăn tươi sạch) và chú ý đến nước ao phải qua lắng lọc.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <Literal>- Ấu trùng của giun tròn Ascarophis sp thuộc họ Rhabdochonidae, bộ Spirudidea, có kích thước rất nhỏ, chiều dài 0,3-0,4 mm.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <Literal>- Virus hình que 
+- Vi khuẩn Vibrio spp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <Literal>- Cho tôm ăn bằng thịt động vật nhuyễn thể</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <Literal>- Thức ăn hôi thồi, kém chất lượng hoặc thiếu thức ăn
+- Thả giống mật độ cao
+- Độ pH thấp
+- Hàm lượng lân trong nước thấp
+- Thuốc trừ sâu
+- Thiếu muối khoáng Canxi, Photphat trong nước và thức ăn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+        <Literal>- Phun trực tiếp vào bể ương ấu trùng hoặc xuống ao tôm:
++ Xanh Malachite 0,005-0,01ppm
++ Treflan 0,01-0,1ppm
++ Formanlin 10ppm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+        <Literal>- Những giống nấm: Lagenidium, Sirolpidium, Haliphthoros, Atkinsiella, Fusarium.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nguồn nước bằng ozon hoặc 1 số chất sát trùng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+        <Literal>- Giống rận tôm Probopyrus, có cơ thể hình ovan, gần đối xứng, chiều dài cơ thể nhở hơn chiều rộng. Rận tôm ký sinh bên trong xoang mang, làm lớp vỏ biến màu đen. Copepoda là vật nuôi trung gian, tôm là vật nuôi cuối cùng.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+        <Literal>- Lọc kỹ và khử trùng nguồn nước
+- Phun một số hóa chất: Xanh Malachite, Formalin vào bể, ao ương</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+        <Literal>- Epistylis, Zoothamnium, Tokophrya, Acineta, Vorticella là ký sinh trùng đơn bào dạng hình loa kèn, chúng có thể sống đơn lẻ hoặc hình thành tập đoàn, kích thước tế bào nhỏ khoảng từ 0,06 - 0,1 mm.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+        <Literal>- Dùng thức ăn tổng hợp nuôi tôm có hàm lượng Vitamin C 2-3 mg/lg mô cơ
+- Thường xuyên bổ sung tảo vào hệ thống nuôi là nguồn Vitamin C tự nhiên rất tốt cho tôm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+        <Literal>- Các đàn tôm nuôi thâm canh dùng thức ăn tổng hợp có hàm lượng Vitamin C thấp không đủ lượng bổ sung cho sinh trưởng của tôm, tảo và nguồn khác trong hệ thống nuôi.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+        <Literal>- Gregarine thuộc lớp trùng 2 tế bào Eugregarinida, ký sinh chủ yếu trong ruột động vật không xương sống.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+        <Literal>- Thay nước mới, tăng cường sục khí
+- Dùng men vi sinh để làm sạch nền đáy
+- Bón vôi nung để tả hoặc vôi đen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+        <Literal>- Hàm lượng oxy hòa tan thấp, ao nuôi mật độ cao, tảo phát triển mạnh
+- Đáy ao bẩn có nhiều khí độc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+        <Literal>- Không dùng tôm bố mẹ nhiễm vi bào tử
+- Phát hiện sớm và loại bỏ những cá thẻ nhiễm vi bào tử
+- Khi thu hoạch phải chon những con tôm nhiễm vi bào tử không cho phát tán và bán ngoài chợ
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+        <Literal>- Thường có 3 giống: Thelohania, Pleistophora và Ameson (Nosema). Chúng thường có cấu tạo hình tròn hay bầu dục, cấu tạo rất đơn giản.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <Literal>* Phòng bệnh:
+- Luôn giữ nước trong sạch
+- Hạn chế thức ăn dư thừa hoặc các mùn đáy
+- Mật độ nuôi vừa phải
+- Thức ăn tốt và hợp với từng giai đoạn
+* Trị bệnh:
+- KmnO4 nồng độ 2,5-5ppm tắm 4 giờ
+- Formankin nồng độ  50-100ppm tắm 4-8 giờ
+- Formanlin nồng độ 25ppm ngâm thời gian vô định
+- Neomycin nồng độ 10ppm ngâm thười gian vô định</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <Literal>- Vi khuẩn dạng sợi: Leucothrix mucor, Cytophagr sp, Flexibacter sp, Thiothrix sp, Flavobacterium sp, … Các vi khuẩn này có thể độc lập hoặc phối hợp với nhau.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <Literal>- Baculovirus type C, có kích thước 72x310 nm.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+        <Literal>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+        <Literal>- Picornavirus, thuộc họ Picornaviridae cấu trúc axit nhân là ARN, virus hình cầu có 20 mặt. Virus ký sinh tế bào biểu mô và dưới biểu mô đuôi.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+        <Literal>- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh.
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt.
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+        <Literal>- Virus hình que kích thước khoảng 44x173 nm, gần giống với họ Coronaviridae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <Literal>* Phòng bệnh:
+- Giữ nước sạch
+- Bể ương phải xi phông đáy bể
+- Hạn chế thức ăn dư thừa hoặc các mùn đáy
+- Mật độ nuôi vừa phải
+* Trị bệnh:
+-Dùng kháng sinh: Streptomycin, Oxytetracylin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <Literal>- Vi khuẩn Aeromonas hydrophila có dạng hình que ngắn, hai đầu tròn; chúng di chuyển nhờ vào 1 tiên mao.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <Literal>- Chọn tôm bố mẹ có chất lượng tốt k nhiễm WSSV
+- Không vận chuyển tôm giống mật độ cao
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Hàng tháng cho tôm ăn Vitamin C từ 1-2 đợt với liều 2-3 g/kg thức ăn cơ bản, mỗi đợt cho tôm ăn một tuần liên tục
+- Nguồn nước phải lắng lọc và khử trùng
+- Vớt tôm chết ra khỏi ao
+- Ngăn chặn không cho tôm và giáp xác khác vào ao nuôi
+- Nước ao nuôi tôm bị bệnh phải xử lý bằng Chlorua vôi nồng độ cao(30-50g/m3), không được xả ra ngoài. Khi phát hiện bệnh, tốt nhất thu hoạch ngay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <Literal>- Whispovirus thuộc họ Nimaviridae có dạng hình vỏ trứng, kích thước 120x275nm, có đuôi phụ ở một đầu. Virus có ít nhất 5 lớp protein. Nhân cấu trúc dsADN: Không có thể ẩn.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <Literal>* Phòng bệnh:
+- Nhiệt độ trong ao để biến thiên trong ngày quá 3 độ C
+- Không để tôm sốc do môi trường xấu (thiếu oxy hòa tan)
+- Bón bột đá vôi theo pH (1-2 kg/100m3 nước ao) hoặc bón hợp chất có hoạt chất clo tiệt trùng đáy ao
+- Cho tôm ăn vitamin C (2-3g/1kg thức ăn cơ bản), mỗi đợt 1 tuần, mỗi tháng 2 đợt
+* Trị bệnh:
+- Ngoài như biện pháp phòng bệnh, cho tôm ăn thêm một số kháng sinh (Amikacin hoặc Ciprofloxancin)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <Literal>- Cầu khuẩn Lactococcus garvieae (Enterococcus seriolicida) gram dương, hình quả trứng. Vi khuẩn phát triển ở nhiệt độ 10-40 độ C, độ muối 0,5-6,0 %, pH 9,6.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#benhtri"/>
+        <Literal>tri</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hình_ảnh_triệu_chứng"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mô_tả_bệnh"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <Class IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hình_ảnh_triệu_chứng"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mô_tả_bệnh"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+                <Variable IRI="urn:swrl:var#y"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

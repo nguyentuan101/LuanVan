@@ -1,0 +1,1218 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost:8080"
+     xml:base="http://localhost:8080"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:Ontology-BenhTom="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment xxxx</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment xxxxxx</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cách_phòng_chống">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hình_ảnh_triệu_chứng -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hình_ảnh_triệu_chứng">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mô_tả_bệnh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mô_tả_bệnh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Tác_nhân">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bệnh ký sinh trùng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Các bộ phận bị biến dạng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoạt động bất thường</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thay đổi màu sắc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Nhóm Parvovirus, cấu trúc acid nhân là AND, đường kính 22-24 nm</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+-Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Giống Parvovirus, có cấu trúc acid nhân là AND. Vi rus ký sinh trong nhân tế bào tuyến anten, tế bào hệ bạch huyết, tế bào mang, tế bào dây thần kinh. Nhóm Parvovirus, cấu trúc acid nhân là AND, đường kính 22-24 nm</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh MBV
+- Tẩy dọn ao, bể nuôi
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus MBV</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>Monodon Baculovirus là virus type A Baculovirus monodon, cấu trúc nhân (acid nucleoic) là dsADN, có lớp vỏ bao, dạng hình que.
+Virus ký sinh ở tế bào biểu mô hình ống gan tụy (Hepatopancreas) và tế bào biểu bì phía trước ruột giữa, virus tái sản xuất bên trong nhân tế bào vật nuôi, bao gồm 4 giai đoạn: tiểm ẩn, ảnh hưởng, nhân nhanh số lượng và phá vỡ tế bào</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không cho các chất khí bão hòa ở trong thủy vực
+- Không dùng phân chưa đủ kỹ
+- Nếu phát hiện bọt khí, kịp thời đổi nước</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Các loại khí bão hòa trong nước nhiều
+- Trong ao hồ có nhiều loại tảo, thải ra nhiều khí
+- Phân bón quá nhiều phân chưa ủ kỹ</Ontology-BenhTom:Tác_nhân>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bệnh bọt khí</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <Ontology-BenhTom:Cách_phòng_chống>* Phòng bệnh:
+- Lọc nước qua tầng lọc cát và xử lý tia cực  tím
+- Xử lý tôm bố mẹ bằng Formanlin 20-25 ppm thười gian 30-60 phút
+- Xử lý tảo bằng Oxytetracylin 30-50 ppm thời gian 1-2 phút
+- Xử lý Artemia bằng Chlorin 10-15 ppm trong 1 giờ ở nước ngọt, vớt ra rửa sạch rồi mới cho ấp
+- Thường xuyên xi phông đáy để giảm lượng vi khuẩn ở tầng đáy bể ương
+- Giai đoạn Zoea phòng bệnh bằng Oxytetracline 0.5 ppm, giai đoạn Mysis phòng bằng Oxytetracline 1-2 ppm
+* Trị bệnh:
+- Dùng một số kháng sinh trị bệnh cho ấu trùng tôm
+- Dùng kháng sinh trộn với thức ăn tinh để trị bệnh tôm thịt</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Giống Vibrio thuộc họ Vibrionaceae, có gam âm, hình que thẳng hoặc hơi cong.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <Ontology-BenhTom:Cách_phòng_chống>Chưa nghiên cứu phòng trị nhưng có thể áp dụng biện pháp phòng bệnh tổng hợp( vệ sinh ao nuôi, xử lý nguồn nước, thức ăn tươi sạch) và chú ý đến nước ao phải qua lắng lọc.</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Ấu trùng của giun tròn Ascarophis sp thuộc họ Rhabdochonidae, bộ Spirudidea, có kích thước rất nhỏ, chiều dài 0,3-0,4 mm.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Virus hình que 
+- Vi khuẩn Vibrio spp</Ontology-BenhTom:Tác_nhân>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bệnh hoại tử mắt</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoaitu</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Cho tôm ăn bằng thịt động vật nhuyễn thể</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Thức ăn hôi thồi, kém chất lượng hoặc thiếu thức ăn
+- Thả giống mật độ cao
+- Độ pH thấp
+- Hàm lượng lân trong nước thấp
+- Thuốc trừ sâu
+- Thiếu muối khoáng Canxi, Photphat trong nước và thức ăn</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Phun trực tiếp vào bể ương ấu trùng hoặc xuống ao tôm:
++ Xanh Malachite 0,005-0,01ppm
++ Treflan 0,01-0,1ppm
++ Formanlin 10ppm</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Những giống nấm: Lagenidium, Sirolpidium, Haliphthoros, Atkinsiella, Fusarium.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nguồn nước bằng ozon hoặc 1 số chất sát trùng</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Giống rận tôm Probopyrus, có cơ thể hình ovan, gần đối xứng, chiều dài cơ thể nhở hơn chiều rộng. Rận tôm ký sinh bên trong xoang mang, làm lớp vỏ biến màu đen. Copepoda là vật nuôi trung gian, tôm là vật nuôi cuối cùng.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Lọc kỹ và khử trùng nguồn nước
+- Phun một số hóa chất: Xanh Malachite, Formalin vào bể, ao ương</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Epistylis, Zoothamnium, Tokophrya, Acineta, Vorticella là ký sinh trùng đơn bào dạng hình loa kèn, chúng có thể sống đơn lẻ hoặc hình thành tập đoàn, kích thước tế bào nhỏ khoảng từ 0,06 - 0,1 mm.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Dùng thức ăn tổng hợp nuôi tôm có hàm lượng Vitamin C 2-3 mg/lg mô cơ
+- Thường xuyên bổ sung tảo vào hệ thống nuôi là nguồn Vitamin C tự nhiên rất tốt cho tôm</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Các đàn tôm nuôi thâm canh dùng thức ăn tổng hợp có hàm lượng Vitamin C thấp không đủ lượng bổ sung cho sinh trưởng của tôm, tảo và nguồn khác trong hệ thống nuôi.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Gregarine thuộc lớp trùng 2 tế bào Eugregarinida, ký sinh chủ yếu trong ruột động vật không xương sống.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Dinh_Dưỡng_và_Môi_Trường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Thay nước mới, tăng cường sục khí
+- Dùng men vi sinh để làm sạch nền đáy
+- Bón vôi nung để tả hoặc vôi đen</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Hàm lượng oxy hòa tan thấp, ao nuôi mật độ cao, tảo phát triển mạnh
+- Đáy ao bẩn có nhiều khí độc</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Ký_Sinh_Trùng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng tôm bố mẹ nhiễm vi bào tử
+- Phát hiện sớm và loại bỏ những cá thẻ nhiễm vi bào tử
+- Khi thu hoạch phải chon những con tôm nhiễm vi bào tử không cho phát tán và bán ngoài chợ
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Thường có 3 giống: Thelohania, Pleistophora và Ameson (Nosema). Chúng thường có cấu tạo hình tròn hay bầu dục, cấu tạo rất đơn giản.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu"/>
+        <Ontology-BenhTom:Cách_phòng_chống>* Phòng bệnh:
+- Luôn giữ nước trong sạch
+- Hạn chế thức ăn dư thừa hoặc các mùn đáy
+- Mật độ nuôi vừa phải
+- Thức ăn tốt và hợp với từng giai đoạn
+* Trị bệnh:
+- KmnO4 nồng độ 2,5-5ppm tắm 4 giờ
+- Formankin nồng độ  50-100ppm tắm 4-8 giờ
+- Formanlin nồng độ 25ppm ngâm thời gian vô định
+- Neomycin nồng độ 10ppm ngâm thười gian vô định</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Vi khuẩn dạng sợi: Leucothrix mucor, Cytophagr sp, Flexibacter sp, Thiothrix sp, Flavobacterium sp, … Các vi khuẩn này có thể độc lập hoặc phối hợp với nhau.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Baculovirus type C, có kích thước 72x310 nm.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Không dùng giống tôm có nhiễm mầm bệnh
+- Tẩy dọn ao, bể nuôi
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Nuôi đúng mùa vụ, quản lý chắm sóc tốt, cung cấp đầy đủ thức ăn về chất và lượng 
+- Không để tôm sốc trong quá trình nuôi
+- Kiểm dịch đàn tôm bố mẹ trước khi cho đẻ
+- Xử lý nước bằng ozon và các chất sát trùng Bezalkon clorua trước khi ấp trứng thì có thể sản xuất được đàn tôm Postlarvae không nhiễm virus
+- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Picornavirus, thuộc họ Picornaviridae cấu trúc axit nhân là ARN, virus hình cầu có 20 mặt. Virus ký sinh tế bào biểu mô và dưới biểu mô đuôi.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Tránh vận chuyển tôm có bệnh đến gần nơi chưa phát bệnh.
+- Vớt tôm chết ra khỏi ao, chôn sống trong vôi nung hoặc đốt.
+- Nước từ ao tôm bệnh không thải ra ngoài và xử lý bằng vôi nung hoặc clorua vôi
+- Nếu phát hiện bệnh, tốt nhất nên thu hoạch ngay. Nếu tôm quá nhỏ không thể thu hoạch thì phải xử lý nước trước khi tháo bỏ.</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Virus hình que kích thước khoảng 44x173 nm, gần giống với họ Coronaviridae</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+        <Ontology-BenhTom:Cách_phòng_chống>* Phòng bệnh:
+- Giữ nước sạch
+- Bể ương phải xi phông đáy bể
+- Hạn chế thức ăn dư thừa hoặc các mùn đáy
+- Mật độ nuôi vừa phải
+* Trị bệnh:
+-Dùng kháng sinh: Streptomycin, Oxytetracylin</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Vi khuẩn Aeromonas hydrophila có dạng hình que ngắn, hai đầu tròn; chúng di chuyển nhờ vào 1 tiên mao.</Ontology-BenhTom:Tác_nhân>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bệnh đốm nâu</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domnau</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Virus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ"/>
+        <Ontology-BenhTom:Cách_phòng_chống>- Chọn tôm bố mẹ có chất lượng tốt k nhiễm WSSV
+- Không vận chuyển tôm giống mật độ cao
+- Thức ăn tươi sống không hư thối và dùng nhiệt nấu chín
+- Hàng tháng cho tôm ăn Vitamin C từ 1-2 đợt với liều 2-3 g/kg thức ăn cơ bản, mỗi đợt cho tôm ăn một tuần liên tục
+- Nguồn nước phải lắng lọc và khử trùng
+- Vớt tôm chết ra khỏi ao
+- Ngăn chặn không cho tôm và giáp xác khác vào ao nuôi
+- Nước ao nuôi tôm bị bệnh phải xử lý bằng Chlorua vôi nồng độ cao(30-50g/m3), không được xả ra ngoài. Khi phát hiện bệnh, tốt nhất thu hoạch ngay</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Whispovirus thuộc họ Nimaviridae có dạng hình vỏ trứng, kích thước 120x275nm, có đuôi phụ ở một đầu. Virus có ít nhất 5 lớp protein. Nhân cấu trúc dsADN: Không có thể ẩn.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_Vi_Khuẩn_và_Nấm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm"/>
+        <Ontology-BenhTom:Cách_phòng_chống>* Phòng bệnh:
+- Nhiệt độ trong ao để biến thiên trong ngày quá 3 độ C
+- Không để tôm sốc do môi trường xấu (thiếu oxy hòa tan)
+- Bón bột đá vôi theo pH (1-2 kg/100m3 nước ao) hoặc bón hợp chất có hoạt chất clo tiệt trùng đáy ao
+- Cho tôm ăn vitamin C (2-3g/1kg thức ăn cơ bản), mỗi đợt 1 tuần, mỗi tháng 2 đợt
+* Trị bệnh:
+- Ngoài như biện pháp phòng bệnh, cho tôm ăn thêm một số kháng sinh (Amikacin hoặc Ciprofloxancin)</Ontology-BenhTom:Cách_phòng_chống>
+        <Ontology-BenhTom:Tác_nhân>- Cầu khuẩn Lactococcus garvieae (Enterococcus seriolicida) gram dương, hình quả trứng. Vi khuẩn phát triển ở nhiệt độ 10-40 độ C, độ muối 0,5-6,0 %, pH 9,6.</Ontology-BenhTom:Tác_nhân>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bị_nhiều_sinh_vật_bám">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <Ontology-BenhTom:Hình_ảnh_triệu_chứng rdf:datatype="http://www.w3.org/2001/XMLSchema#string">img/dfudhfdf</Ontology-BenhTom:Hình_ảnh_triệu_chứng>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bị nhiều sinh vật bám</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bọt_khí_bám_vào_các_phần_phụ_và_mang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_phần_phụ_và_vỏ_kitin_hoại_tử">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_vùng_trong_mắt_hoại_tử">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <Ontology-BenhTom:Hình_ảnh_triệu_chứng rdf:datatype="http://www.w3.org/2001/XMLSchema#string">img/dom-trang.jpg</Ontology-BenhTom:Hình_ảnh_triệu_chứng>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cơ đuôi trắng</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đuôi_trắng"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coduoitrang2</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Cơ_đục_mờ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_tôm_bông"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <Ontology-BenhTom:Hình_ảnh_triệu_chứng rdf:datatype="http://www.w3.org/2001/XMLSchema#string">img/dom-trang.jpg</Ontology-BenhTom:Hình_ảnh_triệu_chứng>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cơ đục mờ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_biến_đen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_rận_tôm"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+        <Ontology-BenhTom:Hình_ảnh_triệu_chứng rdf:datatype="http://www.w3.org/2001/XMLSchema#string">img/dom-trang.jpg</Ontology-BenhTom:Hình_ảnh_triệu_chứng>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dưới vỏ biến đen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <Ontology-BenhTom:Hình_ảnh_triệu_chứng rdf:datatype="http://www.w3.org/2001/XMLSchema#string">img/dom-trang.jpg</Ontology-BenhTom:Hình_ảnh_triệu_chứng>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dưới vỏ có đốm nâu</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_nâu"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domnau1</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dưới_vỏ_có_đốm_trắng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Dạ_dày_và_ruột_hơi_vàng_hoặc_trắng_đục">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_teo_lại_hoặc_hoại_tử">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Gan_tụy_trắng_đục_hoặc_hơi_vàng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_động_yếu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_sinh_vật_bám"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <Ontology-BenhTom:Hình_ảnh_triệu_chứng rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hinh ảnh img</Ontology-BenhTom:Hình_ảnh_triệu_chứng>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoạt động yếu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Loại_Bệnh"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_thiếu_vitamin_C"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+        <Ontology-BenhTom:hasTrieuChung rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kéo_đàn_bơi_lòng_vòng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Lờ_đờ_hôn_mê">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_gan_tụy_vàng_nhạt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_nâu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_trắng_đục">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_xanh_hoặc_nâu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_vi_khuẩn_dạng_sợi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mang_đen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Mắt_phồng_rộp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+        <Ontology-BenhTom:Hình_ảnh_triệu_chứng rdf:datatype="http://www.w3.org/2001/XMLSchema#string">đhgkjdfhgjkfhlgk</Ontology-BenhTom:Hình_ảnh_triệu_chứng>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mắt phồng rộp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nắp_mang_phồng_lên">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nằm_yên_ở_đáy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Nổi_trên_mặt_ao_dạt_vào_bờ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_bọt_khí"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trúng_độc"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_virus_hoại_tử_tuyến_ruột_giữa"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_trắng"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phát_triển_nhanh_bất_thường_đột_ngột_ngừng_ăn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Hoạt_Động_Bất_Thường"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Phân_trắng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_trùng_hai_tế_bào"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Sợi_anten_quăn_queo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Toàn_thân_nhợt_nhạt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đầu_vàng"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Trùy_biến_dạng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_bị_mềm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_mềm_vỏ"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đục_cơ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_và_phần_phụ_bị_ăn_mòn_gãy_cụt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đốm_nâu"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Kém_ăn_chậm_lớn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Vỏ_xù_xì_biến_dạng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#chân -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#chân"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#tay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#tay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_bị_đứt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_nấm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_hoại_tử">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_phồng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Các_Bộ_Phận_Bị_Biến_Dạng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đuôi_đỏ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_đuôi_đỏ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Đổi_thành_màu_tối_xanh_đỏ_đen_xám">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Thay_Đổi_Màu_Sắc"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Triệu_Chứng"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_HPV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_IHHNV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_MBV"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_do_vi_khuẩn_Vibrio"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_giun_tròn"/>
+        <Ontology-BenhTom:TrieuChungof rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#Bệnh_hoại_tử_mắt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#y">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#hasTrieuChung"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tuan/ontologies/2020/10/Ontology-BenhTom#TrieuChungof"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
